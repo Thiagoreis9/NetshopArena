@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+	font-family: "Valorant font";
+	src: url("Valorant\ Font.ttf");
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    background-color: rgb(20, 20, 20);
+    padding: 40px;
+    min-height: 45px;
+}
+header h1{
+    color: white;
+    text-shadow: 3px 3px 3px red;
+    font-family: "Valorant font";
+    font-size: 50px;
+    float: right;
+    text-align: left;
+}
+header img{
+    width: 100px;
+    margin-top: -30;
+    float: left;
+}
