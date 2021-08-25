@@ -6,7 +6,8 @@
 @font-face{
 	font-family: "Valorant font";
 	src: url("Valorant\ Font.ttf");
-
+}
+@font-face {
     font-family: "Letric_PERSONAL_USE_ONLY";
     src: url("Letric_PERSONAL_USE_ONLY.otf");
 }
@@ -49,13 +50,50 @@ header h1{
     padding-top: 180px;
 }
 
+#conteudo2{
+    background-image: url("conteudo3-1.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 790px;
+    padding-top: 180px;
+}
+
+#conteudo3{
+    background-image: url("conteudo2-1.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 790px;
+    padding-top: 100px; 
+}
+
+#conteudo3 h1{
+    margin-top: -40px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    font-family: "Letric_PERSONAL_USE_ONLY";
+    text-shadow: 5px 5px 8px black;
+}
+
+#conteudo3 table{
+    color: white;
+}
+
+#conteudo2 h1{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    font-family: "Valorant font";
+    font-size: 50px;
+}
+
 #conteudo h1{
     padding-top: 15px;
     font-size: 65px;
     text-align: center;
     color: white;
     font-family: "Letric_PERSONAL_USE_ONLY";
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 5px 5px 8px black;
 }
 #logo table{
     margin-top: 45px;
@@ -120,6 +158,7 @@ table{
     padding: 25px 25px;
     font-size: 16px;
     transition: 0.9s;
+    text-shadow: none;
 }
 
 #logo1 img:hover{
@@ -131,7 +170,70 @@ table{
     width: 410px;
     transition: 0.9s;
 }
+
 #ladoesquerdo img:hover{
     width: 510px;
+    transition: 0.9s;
+}
+
+video{
+    margin: 0 auto;
+    padding-top: 60px;
+    width:820px;
+}
+
+#apresentavideo{
+    float:left;
+}
+
+#sobrenos{
+    float: right;
+    color: white;
+    font-size: 28px;
+    margin: 110px 60px 60px 60px;
+    background-color: rgba(10, 10, 10, 0.4);
+}
+
+#conteudo3 table{
+    height: 600px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: rgba(10,10,10,0.3);
+}
+
+#tdnome{
+    text-align: left;
+}
+
+#tab1{
+    float: left;
+    width: 44%;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+#tab1 tr{
+    height: 70px;
+}
+
+#tab2{
+    width: 44%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 0px;
+} 
+
+#tab2 tr{
+    height: 70px;
+}
+
+#tab1 img:hover{
+    width: 95px;
+    transition: 0.9s;
+}
+
+#tab2 img:hover{
+    width: 90px;
     transition: 0.9s;
 }
