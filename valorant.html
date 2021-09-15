@@ -3,9 +3,9 @@
     <head>
     <meta charset="utf-8">
     <title>Evento Netshop</title>
-    <link href="style.css" rel="stylesheet">   
+    
     <style>
-        /**{
+        *{
             margin: 0px;
             padding: 0px;
         }
@@ -14,7 +14,7 @@
             margin: 0 auto;
         }
         body{
-            background-image: url("bg.jpg");
+            background-image: url("imagens/bg.jpg");
             background-size: 100%;
         }
         header{
@@ -81,7 +81,7 @@
             margin-top: -40px;
         }
         button {
-            margin-top: 300px;
+            margin-top: 160px;
             background-color: red;
             border: none;
             color: white;
@@ -92,21 +92,40 @@
             font-size: 16px;
             font-family: "Valorant Font";
         }
+        
+        button #button1{
+            margin-top: 10px;
+        }
+
         button:hover{
             background-color: white;
             color: red;
             padding: 25px 25px;
             font-size: 16px;
             transition: 0.9s;
-        }*/
+        }
+
+        #tow{
+            display: none;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: black;
+            width: 60%;
+            max-height: 25%;
+            margin-top: -280px;
+            position: relative;
+            text-shadow: 2px 2px 6px red;
+            padding: 100px 100px 55px 100px;
+        }
 
         
+
+       
     </style>    
     </head>
     <body>
        <header class="container">
             <div id="logo">
-                <img src="logo.png">
+                <img src="imagens/logo.png">
                 <table>
                     <tr>
                         <td>
@@ -129,10 +148,60 @@
             <h1>NETSHOP INFORMATICA</h1>
             <h1>APRESENTA:</h1>
             <h1>PRIMEIRO CAMPEONATO DE</h1>
-            <button value="inscrever-se">inscreva-se</button>
+
+            <div id="one">
+                <div class="container" id="tow">
+                    <h1>INSCREvA SUA EQUIPE: </h1>
+                    <form action="index.html" method="post">
+                        <div>
+                            <label for="name">Nome da equipe:</label>
+                            <input type="text" id="name" />
+                        </div>
+                        <div>
+                            <label for="elo">Elo da equipe:</label>
+                            <input type="text" id="elo" />
+                        </div>
+                        <div>
+                            <label for="integrante1">Nickname integrante nº 1:</label>
+                            <input type="text" id="integrante1" />
+                        </div>
+                        <div>
+                            <label for="integrante2">Nickname integrante nº 2:</label>
+                            <input type="text" id="integrante2" />
+                        </div>
+                        <div>
+                            <label for="integrante3">Nickname integrante nº 3:</label>
+                            <input type="text" id="integrante3" />
+                        </div>
+                        <div>
+                            <label for="integrante4">Nickname integrante nº 4:</label>
+                            <input type="text" id="integrante4" />
+                        </div>
+                        <br>
+                        <div>
+                            <label for="contato">WHATSAPP para contato:</label>
+                            <input type="tel" id="contato" />
+                        </div>
+                        <div>
+                            <button  margin="10px" type="submit">Enviar sua mensagem</button>
+                        </div>
+                    </form>
+                </div>
+                <button id="inscreva-se" onclick="javascript:showDiv();">inscreva-se</button>
+            </div>
+            <script type="text/javascript">
+                function showDiv() {
+                    div = document.getElementById('tow');
+                    div.style.display = "block";
+                    div = document.getElementById('inscreva-se');
+                    div.style.display = "none";
+
+                }
+            </script>
+
        </div>
        <footer>
-            <a href="https://www.instagram.com/netshopinformaticadf/"><img src="insta.png" ></a>
+            <a href="https://www.instagram.com/netshopinformaticadf/"><img src="imagens/insta.png" ></a>
             <script src="script.js"></script>
             <script src="jquery.js"></script>
             <script src="script_jquery.js"></script>
