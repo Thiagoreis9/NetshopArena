@@ -12,8 +12,15 @@
     src: url("Letric_PERSONAL_USE_ONLY.otf");
 }
 
+
+
 .container{
     width: 80%;
+    margin: 0px auto;
+}
+
+.container1{
+    width: 40%;
     margin: 0px auto;
 }
 
@@ -24,8 +31,8 @@
 header{
     background-color: rgb(10, 10, 10);
     width: 100%;
-    height: 100px;
-    position: relative;
+    min-height: 100px;
+    
 }
 
 header h1{
@@ -37,16 +44,19 @@ header h1{
     padding-top:20px ;
 }
 
+#logo1{
+    float: left;
+}
+
 #logo1 img{
     width: 90px;
-    float: left;
 }
 
 #conteudo{
     background-image: linear-gradient(118deg ,blue  50%, transparent,  red 50%);
     background-size: 100%;
     width: 100%;
-    height:82%;
+    height:700px;
     padding-top: 180px;
 }
 
@@ -93,7 +103,6 @@ header h1{
     width: 350px;
     -webkit-filter: drop-shadow(5px 5px 11px black);
     filter: drop-shadow(5px 5px 11px black);
-  
 }
 
 #conteudo2 img:hover{
@@ -154,38 +163,37 @@ header h1{
     font-family: "Letric_PERSONAL_USE_ONLY";
     text-shadow: 5px 5px 8px black;
 }
-#logo table{
-    margin-top: 45px;
-    font-size: larger;
+
+#logo li{
+    padding: 45px 0px;
+    font-size: 16px;
     text-shadow: 2px 2px 3px black;
     border-spacing: 0px;
     float: right;
 }
+
 table{
-    margin-top: 80px;
     font-size: larger;
     text-shadow: 2px 2px 3px black;
 }
 
-#logo td{
-    margin: 0;
-    color: aliceblue;
-    font-size: 16px;
-}
 
 #logo a{
     padding: 25px 25px;
+    
+    margin: 10px;
     font-family: "Valorant Font";
     text-decoration: none;
     color: white;
     background-color: rgba(10,10,10, 0.8);
+    width: auto;
 }
 
 #logo a:hover{
     background-color: white;
     color: black;
     padding: 25px 25px;
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.9s;
     text-shadow: none;
 }
@@ -257,10 +265,6 @@ video{
 
 }
 
-#conteudo4 iframe{
-    margin-left: 650px;
-}
-
 #conteudo4 h1{
     color: white;
     text-shadow: 2px 2px 3px black;
@@ -310,7 +314,7 @@ video{
 
 footer{
     width: 100%;
-    height: 110px;
+    min-height: 100px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -432,4 +436,280 @@ footer img{
     transition: 0.3s;
     width:350px;
     height: 50px;
+}
+
+@media screen and (max-width:768px){
+    #logo li{
+        float: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    #logo a{
+
+        width: 100%;
+    }
+
+    #logo1{
+        float: none;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #conteudo{
+        padding-top: 0px;
+    }
+    #conteudo h1{
+        font-size: 45px;
+
+    }
+
+    #ladoesquerdo {
+        float: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #ladoesquerdo img{
+        width: 340px;
+    }
+    #ladoesquerdo a{
+        width: 380px;
+    }
+
+    #ladodireito {
+        float: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #ladodireito img{
+        width: 250px;
+    }
+    #ladodireito a{
+        width: 380px;
+    }
+
+    #conteudo2 video{
+        height: 425px;
+    }
+    #conteudo2 {
+        height: 850px;
+        background-color: #101010;
+    }
+    #conteudo2 p{
+        margin-top: 425px;
+        width: 80%;
+        
+        height: 100%;
+        position: absolute;
+        font-size: 28px;
+        padding: 25px;
+        display: inline;
+        color: aliceblue;
+        text-shadow: 5px 5px 8px black;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        background-color: rgba(0,0, 0, 0.34); 
+    }
+    #conteudo2 h1{
+        color: white;
+        text-shadow: 5px 5px 11px black;
+        text-align: center;
+        font-family: "Valorant font";
+        font-size: 40px;
+        padding-top: 392px;
+        position: absolute;
+        display: block;
+    }
+    #conteudo2 img{
+        padding: 25px;
+        margin-top: 760px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 310px;
+        -webkit-filter: drop-shadow(5px 5px 11px black);
+        filter: drop-shadow(5px 5px 11px black);
+    }
+    #conteudo2 img:hover{
+        transition: 0.3s;
+        width:325px;
+    }
+
+    #conteudo3{
+        padding-top: 40px;
+        position: relative;
+        background-size: 100%;
+        display: block;
+        width: 100%;
+        height:1300px;
+        justify-items: center;
+        background-image: url("imagens/cont3fundo.jpg");
+        background-attachment:fixed;
+    }
+    #conteudo3 h1{
+        font-family: "Valorant font";
+        font-size: 35px;
+        color: white;
+        text-shadow: 5px 5px 8px black;
+        text-align: center;
+    }
+    #conteudo3 table{
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        position: relative;
+        border-radius: 2%;
+        border-spacing: 30px;
+        height: 200px;
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #tab1{
+        float: none;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+    #tab1 tr{
+        height: 70px;
+    }
+    #tab2{
+        float: none;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+
+    } 
+    #tab2 tr{
+        height: 70px;
+    }
+    #tab1 img:hover{
+        width: 95px;
+        transition: 0.9s;
+    }
+    #tab2 img:hover{
+        width: 90px;
+        transition: 0.9s;
+    }
+
+    #b1 button {
+        width: 80%;
+        text-align: center;
+        margin: 45px auto;
+        position: absolute;
+        background-color: rgb(43, 43, 43);
+        border: none;
+        color: white;
+        padding: 25px 25px;
+        font-size: 25px;
+        font-family: "Valorant Font";
+    }
+    #b1 button:hover{
+        background-color:rgb(99, 99, 99);
+        color: rgb(43, 43, 43);
+        padding: 25px 25px;
+        font-size: 30px;
+        transition: 0.9s;
+    }
+    .container1{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    #conteudo4{
+        background-image: url("imagens/conteudo4-1.png");
+        background-size: 100%;
+        width: 100%;
+        height: 600px;
+        padding: 80px 0px;
+    
+    }
+    
+    #conteudo4 h1{
+        color: white;
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+        font-family: "Valorant font";
+        font-size: 50px;
+        margin-bottom: 40px;
+        margin-top: -20px;
+    }
+    
+    #conteudo4 h2{
+        color: white;
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+    
+    #conteudo4 h3{
+        color: white;
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #conteudo2 video{
+        height: 330px;
+    }
+    #conteudo2 {
+        height: 710px;
+        background-color: #101010;
+    }
+    #conteudo2 p{
+        margin-top: 345px;
+        width: 80%;
+        
+        height: 100%;
+        position: absolute;
+        font-size: 22px;
+        padding: 25px;
+        display: inline;
+        color: aliceblue;
+        text-shadow: 5px 5px 8px black;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        background-color: rgba(0,0, 0, 0.34); 
+    }
+    #conteudo2 h1{
+        color: white;
+        text-shadow: 5px 5px 11px black;
+        text-align: center;
+        font-family: "Valorant font";
+        font-size: 40px;
+        padding-top: 312px;
+        position: absolute;
+        display: block;
+    }
+    #conteudo2 img{
+        padding: 25px;
+        margin-top: 620px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 310px;
+        -webkit-filter: drop-shadow(5px 5px 11px black);
+        filter: drop-shadow(5px 5px 11px black);
+    }
+    #conteudo2 img:hover{
+        transition: 0.3s;
+        width:325px;
+    }
 }
