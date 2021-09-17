@@ -713,3 +713,17 @@ footer img{
         width:325px;
     }
 }
+
+#ladodireito {
+    float: right;
+    
+}
+#ladodireito img{
+
+    width: 400px;
+}
+
+
+#ladoesquerdo {
+    float: left;
+}
