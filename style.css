@@ -441,6 +441,129 @@ footer img{
     height: 50px;
 }
 
+
+
+
+
+@media screen and (max-width:1242px){
+    #logo li{
+        float: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    #logo a{
+
+        width: 100%;
+    }
+    #logo1{
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ladoesquerdo {
+        float: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #ladoesquerdo img{
+        width: 340px;
+    }
+    #ladoesquerdo a{
+        width: 380px;
+    }
+
+    #ladodireito {
+        float: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #ladodireito img{
+        width: 250px;
+    }
+    #ladodireito a{
+        width: 380px;
+    }
+    
+
+
+    #conteudo3{
+        padding-top: 40px;
+        position: relative;
+        background-size: 100%;
+        display: block;
+        width: 100%;
+        height:1300px;
+        justify-items: center;
+        background-image: url("imagens/cont3fundo.jpg");
+        background-attachment:fixed;
+    }
+    #conteudo3 h1{
+        font-family: "Valorant font";
+        font-size: 35px;
+        color: white;
+        text-shadow: 5px 5px 8px black;
+        text-align: center;
+    }
+    #conteudo3 table{
+        margin: 0 auto;
+        float: none;
+        color: white;
+        text-align: center;
+        position: relative;
+        border-radius: 2%;
+        border-spacing: 30px;
+        height: 200px;
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #conteudo2 p{
+        font-size: 25px;
+        margin-top: 200px;
+
+    }
+    #conteudo2 h1{
+        font-size: 60px;
+        padding-top: 30px;
+    }
+    #conteudo2 img{
+        margin-top: 560px;
+    }
+    #conteudo2{
+        min-height: 690px;
+    }
+
+    #conteudo3{
+        padding-top: 40px;
+        position: relative;
+        background-size: 100%;
+        display: block;
+        width: 100%;
+        min-height:900px;
+        justify-items: center;
+        background-image: url("imagens/cont3fundo.jpg");
+        background-attachment:fixed;
+    }
+    #conteudo3 h1{
+        font-family: "Valorant font";
+        font-size: 35px;
+        color: white;
+        text-shadow: 5px 5px 8px black;
+        text-align: center;
+    }
+    #b1 button {
+        margin: 70 auto 0 auto;
+        width: 80%;
+    }
+    
+}
+
 @media screen and (max-width:768px){
     #logo li{
         float: none;
@@ -716,6 +839,7 @@ footer img{
         width:325px;
     }
 }
+
 @media screen and (max-width:414px){
     #ladodireito {
          float: none;
@@ -749,122 +873,4 @@ footer img{
         height: 780px;
     }
 
-}
-@media screen and (max-width:1242px){
-    #logo li{
-        float: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        text-align: center;
-    }
-    #logo a{
-
-        width: 100%;
-    }
-    #logo1{
-        float: none;
-        display: flex;
-        justify-content: center;
-    }
-
-    #ladoesquerdo {
-        float: none;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    #ladoesquerdo img{
-        width: 340px;
-    }
-    #ladoesquerdo a{
-        width: 380px;
-    }
-
-    #ladodireito {
-        float: none;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    #ladodireito img{
-        width: 250px;
-    }
-    #ladodireito a{
-        width: 380px;
-    }
-    
-
-
-    #conteudo3{
-        padding-top: 40px;
-        position: relative;
-        background-size: 100%;
-        display: block;
-        width: 100%;
-        height:1300px;
-        justify-items: center;
-        background-image: url("imagens/cont3fundo.jpg");
-        background-attachment:fixed;
-    }
-    #conteudo3 h1{
-        font-family: "Valorant font";
-        font-size: 35px;
-        color: white;
-        text-shadow: 5px 5px 8px black;
-        text-align: center;
-    }
-    #conteudo3 table{
-        margin: 0 auto;
-        float: none;
-        color: white;
-        text-align: center;
-        position: relative;
-        border-radius: 2%;
-        border-spacing: 30px;
-        height: 200px;
-        font-size: 30px;
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-
-    #conteudo2 p{
-        font-size: 25px;
-        margin-top: 200px;
-
-    }
-    #conteudo2 h1{
-        font-size: 60px;
-        padding-top: 30px;
-    }
-    #conteudo2 img{
-        margin-top: 560px;
-    }
-    #conteudo2{
-        min-height: 690px;
-    }
-
-    #conteudo3{
-        padding-top: 40px;
-        position: relative;
-        background-size: 100%;
-        display: block;
-        width: 100%;
-        min-height:900px;
-        justify-items: center;
-        background-image: url("imagens/cont3fundo.jpg");
-        background-attachment:fixed;
-    }
-    #conteudo3 h1{
-        font-family: "Valorant font";
-        font-size: 35px;
-        color: white;
-        text-shadow: 5px 5px 8px black;
-        text-align: center;
-    }
-    #b1 button {
-        margin: 70 auto 0 auto;
-        width: 80%;
-    }
-    
 }
